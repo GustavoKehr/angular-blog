@@ -1,0 +1,35 @@
+.big-card-container {
+    width: 400px;
+    height: fit-content;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.big-card-date {
+    font-size: 7pt;
+    opacity: .6;
+}
+
+.big-card-title {
+    margin-top: .7rem;
+    margin-bottom: .6rem;
+}
+
+.big-card-title h2 a{
+    font-size: 18pt;
+}
+
+.big-card-description p{
+    opacity: .7;
+    font-size: 10pt;
+}
+
+.big-card-description p a {
+    opacity: .7;
+    font-size: 10pt;
+}

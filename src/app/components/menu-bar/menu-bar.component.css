@@ -1,0 +1,18 @@
+
+
+.menu-bar-container > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu-bar-container > ul > li {
+    margin-right: 2rem;
+}
+ 
+.menu-bar-arrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: .2rem;
+} 

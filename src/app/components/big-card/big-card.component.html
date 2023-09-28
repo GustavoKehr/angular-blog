@@ -1,0 +1,28 @@
+<div class="big-card-container">
+  <div class="big-card-photo">
+    <a [routerLink]="['content', Id]">
+      <img
+        src="{{ photoCover }}"
+        alt="placeholder-image"
+        height="250px"
+        width="100%"
+      />
+    </a>
+  </div>
+
+  <div class="big-card-date">
+    <p>{{ cardDate }}</p>
+  </div>
+
+  <div class="big-card-title">
+    <h2>
+      <a [routerLink]="['content', Id]">{{ cardTitle }}</a>
+    </h2>
+  </div>
+
+  <div class="big-card-description">
+    <p>
+      <a [routerLink]="['content', Id]">{{ cardDescription }}</a>
+    </p>
+  </div>
+</div>

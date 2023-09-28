@@ -1,0 +1,45 @@
+.separator-content {
+    margin-bottom: 3rem;
+}
+
+.content-container {
+    width: 100vw;
+    height: 100vh;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cover-content img {
+    width: 500px;
+    min-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.title-content {
+    text-align: center;
+
+
+    margin-top: 1rem;
+    width: 600px;
+}
+
+.description-content {
+    margin-top: 2.5rem;
+    
+}
+
+.description-content p{
+    width: 500px;
+    opacity: .9;;
+    margin-bottom: 2.5rem;
+}
+
+.break-line {
+    white-space: pre-wrap;
+}
+
